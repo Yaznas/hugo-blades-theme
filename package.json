@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@anyblades/blades": "^3.0.0"
+  },
+  "workspaces": [
+    "packages/hugoautogen"
+  ]
+}
