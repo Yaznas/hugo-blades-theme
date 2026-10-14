@@ -1,0 +1,16 @@
+.grad-text {
+    font-size: 5rem;
+    font-weight: 800; /* Highly recommended for gradients */
+    color: #1c71d8; /* Fallback color for older browsers */
+    background-image: -webkit-linear-gradient(90deg, #1c71d8 0%, #613583 100%);
+    background-image: linear-gradient(90deg, #1c71d8 0%, #613583 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-wrap: balance;
+}

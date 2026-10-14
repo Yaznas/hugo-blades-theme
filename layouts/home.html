@@ -1,9 +1,12 @@
 {{ define "main" }}
+<section class="hero">
   {{ .Content }}
+  </section>
+  <hr />
   {{ range site.RegularPages }}
-    <section>
+    <hgroup>
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ .Summary }}
-    </section>
+    </hgroup>
   {{ end }}
 {{ end }}
